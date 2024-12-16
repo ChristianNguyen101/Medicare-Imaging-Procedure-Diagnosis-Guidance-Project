@@ -7,6 +7,6 @@ Ordering imaging with the incorrect procedure codes may result in denied claims,
 
 This project aims to reduce ambiguity in ordering diagnosis coverage by data scraping publicly available guidances from CMS sites such as https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52992&ver=22. The program will scrape and store the ordering diagnoses that meet necessity. When a medical provider enters a procedure code and ordering diagnosis, the program will then compare the ordering diagnosis with the stored data and alert the provider if the code is not covered under Medicare (code is not found in the stored data). Finally, the program will prompt the user with similar codes that are covered by Medicare. 
 
-Version 1: Version 1 of the Medicare Imaging Procedure Diagnosis Guidance Project. This part of the project scrapes the data from the CMS website utilizing the Selenium package under headless mode to prevent site pop-ups. Running the program outputs the rows and columns of the ICD10 covered codes as well as contents of the ICD10 Covered Codes table.
+Version 1: This version of the project scrapes the data from the CMS website utilizing the Selenium package under headless mode to prevent site pop-ups. Running the program outputs the rows and columns of the ICD10 covered codes as well as contents of the ICD10 Covered Codes table.
 
-Version 2: 
+Version 2: This version of the project builds on version 1 by incorporating user input functionality. The user is prompted to enter the procedure they wish to order. The program then utilizes the prompt to generate the CMS billing guidance link and extract the ICD10 Covered Codes table.
