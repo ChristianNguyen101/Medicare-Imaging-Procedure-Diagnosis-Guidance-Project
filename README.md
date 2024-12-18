@@ -16,3 +16,5 @@ Version 2: This version of the project builds on version 1 by incorporating user
 Version 3: This version of the project contains all functional aspects of the project. The user is prompted to enter the procedure code and ordering diagnosis. The program then determines the ICD-10 code associated with the ordering diagnosis and asks the user to confirm the ICD-10 Code. After confirmation, the program determines whether the diagnosis code is covered under medicare guidelines. If the code is not covered, the program provides Medicare covered codes with similar values as the entered code as suggestions.
 
 Version 4: This version of the project incorporates a Graphic User Interface (GUI) for the user. The user now uses a pop-up window to input the procedure code, ordering diagnosis, and ICD-10 confirmation and views the output in the window. 
+
+Next Steps: This project has certain limitations that present opportunities for growth. The run-time of the program can last up to a few minutes, meaning that quick checks for imaging orders may take longer than expected. Optimization of data extractions may present a faster program. 
