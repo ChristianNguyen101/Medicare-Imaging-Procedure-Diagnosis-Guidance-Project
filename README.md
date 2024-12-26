@@ -1,5 +1,5 @@
 # Medicare Imaging Procedure Diagnosis Guidance Project
-This is a project that looks to address the need to align Clinical Intent with Medicare Reinbursement Guidelines. 
+This is a project that looks to address the need to align Clinical Intent with Medicare Reimbursement Guidelines. 
 
 When ordering imaging procedure for patients, medical providers may not have an up to date knowledge of the ordering diagnoses that provide coverage per CMS guidances. For example, ordering diagnosis I67.89 (Other cerebrovascular disease) meets medical necessity for Procedure Code 93880 (Non-Invasive Cerebrovascular Arterial Studies) but ordering I67.9 (Cerebrovascular disease, unspecified) does not. 
 
